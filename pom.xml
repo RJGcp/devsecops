@@ -58,6 +58,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+                		<artifactId>spring-boot-maven-plugin</artifactId>
+                		<configuration>
+            <			    <mainClass>com.devsecops.SpringBootApplication</mainClass>
+                        	</configuration>
+			</plugin>
 			<!--                   Jacoco Plugin                   -->
 			   <plugin>
 			    <groupId>org.jacoco</groupId>
